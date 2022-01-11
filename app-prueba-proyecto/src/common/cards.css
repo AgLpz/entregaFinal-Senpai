@@ -1,0 +1,177 @@
+.section {
+    grid-area: section;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+
+  }
+  .cards {
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+padding-top: 70px;
+padding-bottom: 70px;
+font-size: 1.6rem;
+margin: 20px 20px;
+   
+
+   }
+   
+   .cards > a{
+       padding-left: 8px;
+       padding-right: 8px;
+       margin: 7.5px;
+   }
+   .cards > a {      
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-color: none;
+              text-decoration: none;
+              
+            }
+    
+
+
+            .restaurante, .tecnologia, .muebleria, .supermercados, .vestimenta, .papelerias, .saludybelleza, .profesionales, .hoteleria, .entretenimiento, .noche, .kiosco, .mascotas, .emergencia, .farmacia, .servicios {
+
+                
+     display: grid;
+     height: 200px;
+     min-width: 200px;
+     padding: 30px;
+     justify-items: center;
+     gap: 30px;
+     background-size:cover;
+     object-fit: cover;
+     cursor: pointer;
+     border-radius: 8px;
+     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+           }
+
+
+            
+
+
+   .restaurante {
+    background-image: url("https://gastronomiaycia.republica.com/wp-content/uploads/2018/05/elecciones_alimentos_restaurantes.jpg");
+
+   }
+   .supermercados {
+     background-image: url('https://www.collinsdictionary.com/images/full/supermarket_406913140_1000.jpg');
+    
+   }
+
+   .vestimenta {
+    background-image: url('https://cdn2.salud180.com/sites/default/files/field/image/2019/02/ir-de-compras-te-ayuda-a-bajar-de-peso-lo-dice-la-ciencia-salud180.jpg');
+   }
+
+   .papelerias {
+    background-image: url('https://www.officenter.com.uy/imgs/categorias/categorias35_603.jpg');
+   }
+
+   .saludybelleza {
+     background-image: url('https://img.vixdata.io/pd/jpg-large/es/sites/default/files/p/piel-salud-y-belleza6.jpg');
+   }
+   .profesionales {
+     background-image: url('https://blog.lemontech.com/wp-content/uploads/2021/01/frases-de-abogados.jpg');
+
+   }
+   .hoteleria {
+     background-image: url("https://pix10.agoda.net/hotelImages/124/1246280/1246280_16061017110043391702.jpg?s=1024x768");
+
+   }
+   .entretenimiento {
+     background-image: url('https://i.blogs.es/e6b751/b9713130523z.1_20170909200800_000-g729ohis5.1-0/450_1000.jpg');
+
+   }
+   .noche {
+     background-image: url('https://images.waiterio.com/images/article-cover-revolutionary-marketing-strategies-for-your-bar-operation-95c30430-1024w.jpg');
+
+   }
+
+ .kiosco{
+   background-image: url('https://www.forestalmaderero.com/wp-content/uploads/2020/10/Kiosco-de-periodicos-en-Milan.png');
+
+ }
+ .mascotas {
+   background-image: url('https://www.segurossura.com.uy/wp-content/uploads/2018/12/mascotas-sura.jpg');
+
+ }
+ .emergencia {
+   background-image: url('https://img.freepik.com/vector-gratis/composicion-moderna-emergencias_23-2147985923.jpg?size=338&ext=jpg');
+
+ }
+ .farmacia {
+   background-image: url('https://selecthealth.org/-/jssmedia/selecthealth/h2-module/med-h2-pharmacy-mtmanagment.ashx');
+
+ }
+
+ .servicios {
+   background-image: url('https://muchosnegociosrentables.com/wp-content/uploads/2017/06/C%C3%B3mo-iniciar-un-servicio-de-fontanero-o-plomero.jpg');
+
+ }
+ .tecnologia {
+   background-image: url('https://media.wired.com/photos/6149204955f7b3aea723343d/master/w_2560%2Cc_limit/Gear-Review-Apple_iPhone-13-Pro_Colors_09142021.jpg');
+ }
+ .muebleria {
+   background-image: url('http://inmobiliare.com/himalaya/wp-content/uploads/2018/03/FIANCEE-BODAS-ABRIL-HOGAR-VOX-MUEBLES-LLEGA-A-POLANCO-31.jpg');
+ }
+ .cards a:hover{
+   transform: scale(1.05);
+   transition: linear 1s;
+ }
+
+   .cards h3 {
+     color: white;
+   background-color: #273036a4;
+   border-radius: 8px;
+     font-size: 1.8rem;
+     padding: 10px;
+   }
+   @media screen and (max-width: 800px){
+
+   .cards {
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 1.6rem;
+  width: 90%;
+  
+   
+  
+   }
+   
+   .cards > a{
+       padding-left: 8px;
+       padding-right: 8px;
+       margin: 7.5px;
+   }
+   .cards > a {      
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-color: none;
+              text-decoration: none;
+              
+            }
+   .restaurante, .tecnologia, .muebleria, .supermercados, .vestimenta, .papelerias, .saludybelleza, .profesionales, .hoteleria, .entretenimiento, .noche, .kiosco, .mascotas, .emergencia, .farmacia, .servicios {
+  
+                       
+    display: grid;
+    height: 60px;
+    width: 90%;
+    padding: 10px;
+    justify-items: center;
+    background-size:cover;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 0px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+          }
+
+        }

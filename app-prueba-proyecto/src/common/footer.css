@@ -1,0 +1,39 @@
+.footer  {
+    display: grid; 
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    background-color: #273036
+ ;
+
+  }
+  .footer h2 {
+      font-size: 3rem;
+      color: #ffff;
+
+  }
+  footer .footerTitulo {
+    display: flex;
+    justify-content: center;
+  }
+  footer .derechosDeAutor {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.6rem;
+  }
+
+  .logoRedes {
+    display: flex;
+    justify-content: center;
+  }
+  .logoRedes i {
+    font-size: 25px;
+    padding: 15px 30px;
+    color: white;
+
+  }
+  .logoRedes a {
+    margin: 5px;
+  }
