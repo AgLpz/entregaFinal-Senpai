@@ -1,0 +1,38 @@
+.main {
+    grid-area: main;
+}
+
+.tituloLogin, .tituloRegister {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+     padding: 20px;
+     font-size: 3rem;
+   }
+  #login, #register, .loginBut {
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #273036;
+    color: #ffffff;
+    margin-bottom: 50px;
+    border-radius: 8px;
+  }
+ 
+  .registerLink {
+    text-align: center;
+    align-items: center;
+    justify-content: start;
+    font-size: 3rem;  
+    background-color: #273036;
+    color: #ffffff;
+    padding: 10px;
+    margin: 50px 100px 50px 100px;
+    border-radius: 8px;
+  }
+  .registerLink a {
+    color:blue;}
+  
+  

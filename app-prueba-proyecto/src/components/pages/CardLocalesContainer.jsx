@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './hoteles.css'
 import CardLocales from './CardLocales';
- 
+  
 
 const CardsLocalesContainer = ({ locales }) => {
   

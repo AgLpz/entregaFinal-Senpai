@@ -1,89 +1,95 @@
 import React from 'react';
 import './cards.css'
+import {
+  Link
+} from "react-router-dom";
 
 const Cards = () => {
     return(
  <section className="section">
   <section className="cards">
-    <a className="restaurante" href="./restaurantes.html">
+
+
+    <Link to="/restaurantes" className="restaurante">
       <h3>
         Restaurantes
       </h3>
-    </a>
-    <a className="supermercados" href="./supermercados.html">  
+    </Link>
+    <Link to="/supermercados" className="supermercados">  
       <h3>
         Supermercados
       </h3>
-    </a>
-    <a className="vestimenta" href="./vestimenta.html">
+    </Link>
+    <Link to="/vestimenta" className="vestimenta">
       <h3>
         Vestimenta
       </h3>
-    </a>
-    <a className="papelerias" href="./papelerias.html">
+    </Link>
+    <Link to="/papeleria" className="papelerias">
       <h3>
         Papelerias
       </h3>
-    </a>
-    <a className="saludybelleza" href="./saludYBelleza.html">
+    </Link>
+    <Link to="/saludybelleza" className="saludybelleza" >
       <h3>
         Salud y belleza
       </h3>
-    </a>
-    <a className="profesionales" href="./profesionales.html">
+    </Link>
+    <Link to="/profesionales" className="profesionales">
       <h3>
         Profesionales
       </h3>
-    </a>
-    <a className="hoteleria" href="./hoteleria.html">
+    </Link>
+    <Link to="/hoteles" className="hoteleria">
       <h3>
         Hoteles
       </h3>
-    </a>
-    <a className="entretenimiento" href="./entretenimiento.html">
+    </Link>
+    <Link to="/entretenimiento" className="entretenimiento" >
       <h3>
         Entretenimiento
       </h3>
-    </a>
-    <a className="noche" href="./vidaNocturna.html">
+    </Link>
+    <Link to="/noche"className="noche" >
       <h3>
         Vida nocturna
       </h3>
-    </a>
-    <a className="kiosco" href="./kioscos.html">
+    </Link>
+    <Link to="/kiosco" className="kiosco" >
       <h3>
         Kioscos
       </h3>
-    </a><a className="mascotas" href="./mascotas.html">
+    </Link>
+    <Link to="/mascotas" className="mascotas" >
       <h3>
         Mascotas
       </h3>
-    </a>
-    <a className="emergencia" href="./emergencias.html">
+    </Link>
+    <Link to="/emergencias"className="emergencia" >
       <h3>
         Emergencias
       </h3>
-    </a>
-    <a className="farmacia" href="./farmacias.html">
+    </Link>
+    <Link to="/farmacias" className="farmacia">
       <h3>
         Farmacias
       </h3>
-    </a>
-    <a className="servicios" href="./servicios.html">
+    </Link>
+    <Link to="/servicios" className="servicios">
       <h3>
         Servicios
       </h3>
-    </a>
-    <a className="tecnologia" href="./tecnologia.html">
+    </Link>
+    <Link to="/tecnologia" className="tecnologia">
       <h3>
         Tecnología
       </h3>
-    </a>
-    <a className="muebleria" href="./muebleria.html">
+    </Link>
+    <Link to="/mueblerias" className="muebleria">
       <h3>
         Mueblerías
       </h3>
-    </a>
+    </Link>
   </section>
 </section>
 

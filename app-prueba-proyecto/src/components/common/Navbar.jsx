@@ -1,9 +1,13 @@
 import React from 'react'
+import {
+  Link
+} from "react-router-dom";
 
 import { Navbar } from 'responsive-navbar-react'
 import 'responsive-navbar-react/dist/index.css'
 
 const Home = () => {
+  const loginNavbar = <Link to="/login">Login</Link>
   const props = {
 
     float:true,
@@ -19,7 +23,7 @@ const Home = () => {
       },
       {
         text: 'Login',
-        link: '#custom-bar'
+        link: {loginNavbar}
       },
       {
               float:true
