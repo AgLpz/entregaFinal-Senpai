@@ -21,7 +21,7 @@ color: var(--azul);
 .container {
   display: grid;
   grid-template-columns: 1.5fr 1.6fr;
-  grid-template-rows: .3fr 4fr 4fr 1.3fr;
+  grid-template-rows: .2fr 3fr 3fr 1.3fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:

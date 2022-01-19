@@ -1,17 +1,22 @@
 import './App.css';
-import Home from './common/Navbar.jsx';
-import Footer from './common/Footer.jsx';
-import Cards from './common/Cards';
-import Map from './common/Map';
+import Home from './components/common/Navbar';
+import Footer from './components/common/Footer';
+import Cards from './components/common/Cards';
+import Map from './components/common/Map';
+import Hoteles from './components/pages/Hoteles';
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+  // Switch,
+  // Route,
+  // Link
 } from "react-router-dom";
 
 
+
+
 function App() {
+
+
   return (
     <Router>
     <div className="container">
@@ -20,6 +25,7 @@ function App() {
 
     {/* <Switch> */}
        <Map/>
+       {/* <Hoteles  /> */}
     {/* </Switch> */}
    
     

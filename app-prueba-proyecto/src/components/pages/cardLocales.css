@@ -1,0 +1,49 @@
+.local1 {
+    display: grid;
+    padding: 15px 0px;
+    gap: 0.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    color: #ffffff;
+      border: solid 0.1px #273036;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+    border-radius: 16px;
+    background-color: #273036c5;
+  
+   }
+  
+  .local1 > img {
+    height: 200px;
+    width: 300px;
+    justify-items: center;
+    background-size:cover;
+    cursor: pointer;
+    object-fit: cover;
+    align-self: center;
+    border: solid 1px #273036;
+  }
+  .titulo {
+display: grid;
+place-items: center;
+font-size: 3rem;
+
+  }
+  .local1 > h2 {
+    padding-bottom: 15px;
+    font-size: 2rem;
+    color: #ffffff;
+  }
+  .local1 > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  background-color: var(--rojo);
+  border-radius: 8px;
+  margin: 10px 10px;
+  padding: 10px 0px;
+  cursor: pointer;
+  border: none;
+  
+  }
